@@ -51,3 +51,14 @@ body{
     }
 }
 
+.heading-tertiary{
+    font-size: $defult-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.paragraph{
+    font-size: $defult-font-size;
+    &:not(:last-child){
+        margin-bottom: 3rem;
+    }
+}
